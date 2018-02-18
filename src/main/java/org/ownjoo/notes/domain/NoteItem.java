@@ -19,23 +19,11 @@ public class NoteItem
     private Long id;
 
 	@Pattern(regexp=NORMAL)
-	private String toolTipText;
-
-	@Pattern(regexp=NORMAL)
-    private String title;
-
-	@Pattern(regexp=NORMAL)
-	private String headline;
-
-	@Pattern(regexp=NORMAL)
 	private String content;
 
 	public NoteItem(){}
-    public NoteItem(String toolTipText, String title, String headline, String content)
+    public NoteItem(String content)
     {
-	    this.toolTipText = toolTipText;
-	    this.title = title;
-	    this.headline = headline;
     	this.content = content;
     }
 }

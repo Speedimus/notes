@@ -1,4 +1,4 @@
-class NoteItem
+class NoteFormModel
 {
     constructor(id, content)
     {
@@ -7,4 +7,4 @@ class NoteItem
     }
 }
 
-export default NoteItem
+export default NoteFormModel
