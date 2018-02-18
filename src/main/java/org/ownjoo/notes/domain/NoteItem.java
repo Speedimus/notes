@@ -1,4 +1,4 @@
-package org.ownjoo.globlitics.domain;
+package org.ownjoo.notes.domain;
 
 import lombok.Data;
 

@@ -1,14 +1,14 @@
-package org.ownjoo.globlitics.controller;
+package org.ownjoo.notes.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class LoginController
+public class IndexController
 {
-    static final String view = "login";
+    String view = "index.html";
 
-    @RequestMapping(value = {"/" + view, "/" + view + "/"})
+    @RequestMapping(value = "/")
     public String index()
     {
         return view;

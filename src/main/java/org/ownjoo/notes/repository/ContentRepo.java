@@ -1,6 +1,6 @@
-package org.ownjoo.globlitics.repository;
+package org.ownjoo.notes.repository;
 
-import org.ownjoo.globlitics.domain.NoteItem;
+import org.ownjoo.notes.domain.NoteItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.web.bind.annotation.CrossOrigin;
 

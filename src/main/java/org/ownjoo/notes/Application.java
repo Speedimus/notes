@@ -1,4 +1,4 @@
-package org.ownjoo.globlitics;
+package org.ownjoo.notes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

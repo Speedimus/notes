@@ -1,4 +1,4 @@
-package org.ownjoo.globlitics.config;
+package org.ownjoo.notes.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

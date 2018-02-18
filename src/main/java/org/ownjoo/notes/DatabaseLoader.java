@@ -1,7 +1,7 @@
-package org.ownjoo.globlitics;
+package org.ownjoo.notes;
 
-import org.ownjoo.globlitics.domain.NoteItem;
-import org.ownjoo.globlitics.repository.ContentRepo;
+import org.ownjoo.notes.domain.NoteItem;
+import org.ownjoo.notes.repository.ContentRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
